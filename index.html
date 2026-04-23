@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanjeep Lama</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- THEME TOGGLE -->
+<button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+  <span class="icon-sun">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+  </span>
+  <span class="icon-moon">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </span>
+</button>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">SL.</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-text" id="heroBg">SANJEEP LAMA</div>
+  <div class="hero-left">
+    <div class="hero-eyebrow">Portfolio — 2025</div>
+    <h1 class="hero-name">Sanjeep<br><span class="accent">Lama</span></h1>
+    <div class="hero-titles">
+      <div class="hero-title-item">↗ Assistant Lecturer of Software Engineering</div>
+      <div class="hero-title-item">↗ Final Year Project Supervisor – Computing</div>
+      <div class="hero-title-item">↗ Mentor – Inosphere WebDev Community</div>
+      <div class="hero-title-item">↗ Software QA Automation Engineer – InnovateTech</div>
+    </div>
+    <p class="hero-tagline">"Building, mentoring, and shaping future developers."</p>
+    <a href="#about" class="hero-cta"><span>Explore my work</span><span>→</span></a>
+  </div>
+  <div class="hero-right">
+    <div class="photo-container">
+      <div class="photo-corner tl"></div><div class="photo-corner tr"></div>
+      <div class="photo-corner bl"></div><div class="photo-corner br"></div>
+      <div class="photo-frame">
+        <img src="sanjeep.jpg" alt="sanjeep">
+      </div>
+      <div class="photo-number">IMG / 001</div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span class="scroll-text">Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrapper">
+  <div class="marquee-track">
+    <span class="marquee-item">Software Engineering</span>
+    <span class="marquee-item">Pedagogy & Mentorship</span>
+    <span class="marquee-item">QA Automation</span>
+    <span class="marquee-item">Web Development</span>
+    <span class="marquee-item">Project Supervision</span>
+    <span class="marquee-item">Islington College</span>
+    <span class="marquee-item">Inosphere Community</span>
+    <span class="marquee-item">Software Engineering</span>
+    <span class="marquee-item">Pedagogy & Mentorship</span>
+    <span class="marquee-item">QA Automation</span>
+    <span class="marquee-item">Web Development</span>
+    <span class="marquee-item">Project Supervision</span>
+    <span class="marquee-item">Islington College</span>
+    <span class="marquee-item">Inosphere Community</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">01 — About</div>
+  <div class="about-grid">
+    <div class="about-aside fade-up">
+      <div class="about-stat"><div class="stat-number">3+</div><div class="stat-label">Years Teaching</div></div>
+      <div class="about-stat"><div class="stat-number">50+</div><div class="stat-label">Students Mentored</div></div>
+      <div class="about-stat"><div class="stat-number">∞</div><div class="stat-label">Passion for Learning</div></div>
+    </div>
+    <div class="about-body fade-up" style="transition-delay:.12s">
+      <p>I am Sanjeep Lama — an educator, engineer, and community builder working at the crossroads of software craftsmanship and human potential. At Islington College, I teach Software Engineering and supervise final year Computing projects, guiding students from concept through completion.</p>
+      <p>My journey began in quality assurance automation at InnovateTech, where I developed a deep appreciation for systematic, disciplined engineering. That rigor now shapes everything I bring to the classroom — structured thinking, clean architecture, and the patience to teach <em>why</em>, not just <em>how</em>.</p>
+      <p>Outside academia, I mentor aspiring developers through the Inosphere WebDev Community, where the best learning happens in community — shared struggle, shared growth.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label">02 — Experience</div>
+  <h2 class="section-heading fade-up">What I've<br><em>been building</em></h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2022 — Present</div>
+      <div class="timeline-role">Assistant Lecturer</div>
+      <div class="timeline-org">Islington College, Kathmandu</div>
+      <div class="timeline-desc">Teaching Software Engineering to undergraduate and postgraduate students.</div>
+      <div class="timeline-tags">
+        <span class="tag">Software Engineering</span>
+        <span class="tag">Curriculum Design</span><span class="tag">Academic Mentoring</span>
+      </div>
+    </div>
+        <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2025 — Present</div>
+      <div class="timeline-role">Final Year Project Supervisor</div>
+      <div class="timeline-org">Islington College, Kathmandu</div>
+      <div class="timeline-desc">Supervising Final Year Projects, guiding students through research methodology, system design, and professional practice.</div>
+      <div class="timeline-tags">
+        <span class="tag">Software Engineering</span><span class="tag">Project Supervision</span>
+        <span class="tag">Curriculum Design</span><span class="tag">Academic Mentoring</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2026 - Present</div>
+      <div class="timeline-role">Mentor</div>
+      <div class="timeline-org">Inosphere WebDev Community</div>
+      <div class="timeline-desc">Leading and mentoring emerging web developers through workshops, code reviews, and career guidance — bridging the gap between academic learning and industry readiness.</div>
+      <div class="timeline-tags">
+        <span class="tag">Mentorship</span><span class="tag">Web Development</span>
+        <span class="tag">Community Building</span><span class="tag">Workshops</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2021 — 2024</div>
+      <div class="timeline-role">Software QA Automation Engineer</div>
+      <div class="timeline-org">InnovateTech (MySecondTeacher)</div>
+      <div class="timeline-desc">Designed and implemented automated testing frameworks for web-based educational platforms. Reduced regression cycles and improved release confidence across multiple product lines.</div>
+      <div class="timeline-tags">
+        <span class="tag">Test Automation</span><span class="tag">Cypress</span>
+        <span class="tag">CI/CD</span><span class="tag">Agile</span><span class="tag">Quality Assurance</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label">03 — Education</div>
+  <h2 class="section-heading fade-up">Academic<br><em>foundations</em></h2>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <div class="edu-num">04</div>
+      <div class="edu-level">Postgraduate</div>
+      <div class="edu-degree">Master's in<br>Software Engineering</div>
+      <div class="edu-school">Islington College, Kathmandu</div>
+      <div class="edu-year">2025 – Present</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-num">03</div>
+      <div class="edu-level">Undergraduate</div>
+      <div class="edu-degree">BSc (Hons)<br>Information Technology</div>
+      <div class="edu-school">Herald College, Kathmandu</div>
+      <div class="edu-year">2016 – 2019</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-num">02</div>
+      <div class="edu-level">Higher Secondary</div>
+      <div class="edu-degree">+2 Management</div>
+      <div class="edu-school">Himalayan International Model School (HIMS)</div>
+      <div class="edu-year">2014 – 2016</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-num">01</div>
+      <div class="edu-level">Secondary</div>
+      <div class="edu-degree">School Leaving Certificate</div>
+      <div class="edu-school">Shivapuri Higher Secondary School</div>
+      <div class="edu-year">up to 2014</div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label">04 — Skills & Activities</div>
+  <h2 class="section-heading fade-up">Beyond<br><em>the code</em></h2>
+  <div class="skills-layout">
+    <div>
+      <div class="skill-category fade-up">
+        <div class="skill-cat-label">Music</div>
+        <div class="skill-items">
+          <div class="skill-item">Flute <span class="skill-icon">♪</span></div>
+          <div class="skill-item">Madal <span class="skill-icon">♩</span></div>
+          <div class="skill-item">Guitar <span class="skill-icon">♫</span></div>
+          <div class="skill-item">Vocal <span class="skill-icon">♬</span></div>
+        </div>
+      </div>
+      <div class="skill-category fade-up">
+        <div class="skill-cat-label">Martial Arts & Sport</div>
+        <div class="skill-items">
+          <div class="skill-item">Karate <span class="skill-icon">🥋</span></div>
+          <div class="skill-item">Fencing <span class="skill-icon">⚔</span></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-category fade-up" style="transition-delay:.08s">
+        <div class="skill-cat-label">Dance</div>
+        <div class="skill-items">
+          <div class="skill-item">Jabbawockeez <span class="skill-icon">◈</span></div>
+          <div class="skill-item">Cultural / Traditional <span class="skill-icon">◇</span></div>
+        </div>
+      </div>
+      <div class="skill-category fade-up" style="transition-delay:.12s">
+        <div class="skill-cat-label">Hobbies</div>
+        <div class="skill-items">
+          <div class="skill-item">Vlogging <span class="skill-icon">◉</span></div>
+          <div class="skill-item">Video & Photo Editing <span class="skill-icon">◈</span></div>
+          <div class="skill-item">Riding <span class="skill-icon">◇</span></div>
+          <div class="skill-item">Travelling <span class="skill-icon">◎</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<!-- <section id="projects">
+  <div class="section-label">05 — Projects</div>
+  <h2 class="section-heading fade-up">Selected<br><em>work</em></h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-inner">
+        <div><div class="project-number">001</div><div class="project-title">Coming<br>Soon</div></div>
+        <div class="project-tech">Web Development · 2025</div>
+      </div>
+      <div class="project-bg-num">1</div>
+      <div class="project-overlay">
+        <div class="project-overlay-title">Project One</div>
+        <div class="project-overlay-desc">A future project will appear here. Stay tuned for something interesting.</div>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-inner">
+        <div><div class="project-number">002</div><div class="project-title">Coming<br>Soon</div></div>
+        <div class="project-tech">Software Engineering · 2025</div>
+      </div>
+      <div class="project-bg-num">2</div>
+      <div class="project-overlay">
+        <div class="project-overlay-title">Project Two</div>
+        <div class="project-overlay-desc">Another project placeholder. Add your own details and links here.</div>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-inner">
+        <div><div class="project-number">003</div><div class="project-title">Coming<br>Soon</div></div>
+        <div class="project-tech">Mentorship · Community</div>
+      </div>
+      <div class="project-bg-num">3</div>
+      <div class="project-overlay">
+        <div class="project-overlay-title">Project Three</div>
+        <div class="project-overlay-desc">This card is ready for your next big project or initiative.</div>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">06 — Contact</div>
+  <div class="contact-inner">
+    <div class="fade-up">
+      <h2 class="contact-heading">Let's<br><em>connect</em></h2>
+      <p class="contact-sub">Whether you're a student, a fellow educator, or someone building something meaningful — I'd love to hear from you.</p>
+<a href="https://mail.google.com/mail/?view=cm&to=sanjeeplamaa@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-email-link">sanjeeplamaa@gmail.com</a>    </div>
+    <div class="social-list fade-up" style="transition-delay:.12s">
+      <a href="https://www.instagram.com/sangge_hyolmo/" target="_blank" rel="noopener noreferrer" class="social-item">
+        <div><div class="social-name">Instagram</div><div class="social-handle">@sanjeeplama</div></div>
+        <span class="social-arrow">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/sanjeeplama/" target="_blank" rel="noopener noreferrer" class="social-item">
+        <div><div class="social-name">LinkedIn</div><div class="social-handle">Sanjeep Lama</div></div>
+        <span class="social-arrow">↗</span>
+      </a>
+      <a href="https://www.facebook.com/sanghyolm/" target="_blank" rel="noopener noreferrer" class="social-item">
+        <div><div class="social-name">Facebook</div><div class="social-handle">Sanjeep Lama</div></div>
+        <span class="social-arrow">↗</span>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&to=sanjeeplamaa@gmail.com" target="_blank" rel="noopener noreferrer" class="social-item">
+        <div><div class="social-name">Email</div><div class="social-handle">Say hello</div></div>
+        <span class="social-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-name">Sanjeep Lama</div>
+  <div class="footer-copy">© 2026 — All rights reserved</div>
+</footer>
+<script src="javascript.js">
+</script>
+</body>
+</html>
