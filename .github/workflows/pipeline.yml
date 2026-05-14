@@ -55,4 +55,4 @@ jobs:
         run: |
           ssh -t ubuntu@$SERVER_IP -i mykey.pem 'docker pull sanjeepdocker/portfolio'
           ssh -t ubuntu@$SERVER_IP -i mykey.pem 'docker stop portfolio-sanjeep && docker rm portfolio-sanjeep'
-          ssh -t ubuntu@$SERVER_IP -i mykey.pem 'docker run --name -d -p 80:8000 -d sanjeepdocker/portfolio:latest'
+          ssh -t ubuntu@$SERVER_IP -i mykey.pem 'docker run --name portfolio-sanjeep -d -p 80:80 -d sanjeepdocker/portfolio:latest'
