@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:alpine
 
 # Remove default nginx files
 RUN rm -rf /usr/share/nginx/html/*
